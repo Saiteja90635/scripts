@@ -23,4 +23,10 @@ a+=(7 40 25 my new file)
 echo "updated file is ${a[*]}"
 
 
+# creating a key value pair array
+
+declare -A key
+key=( [name]=saiteja [age]=26 [city]=hyd)
+
+echo "my name is ${key[name]} and my age is ${key[age]} and I live in ${key[city]}"
 
