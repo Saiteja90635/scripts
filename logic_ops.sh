@@ -18,9 +18,3 @@ else
 	echo "c is greater"
 fi
 
-
-
-
-
-
-
