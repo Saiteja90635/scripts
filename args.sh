@@ -1,6 +1,11 @@
 #!/bin/bash
 # arguments
 
+if [[ $# -eq 0 ]]
+then
+	exit 1
+fi
+
 echo "first arg is $1"
 echo "second arg is $2"
 
